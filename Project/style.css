@@ -1,0 +1,50 @@
+body {
+    background-color:yellow; 
+  }
+  /* this is to change the color of the page yellow */
+h1 {
+    font-size: 3em;
+    text-align: center;
+/*    align: center;*/
+}
+/*This changes the h1 by changing the fint and where is aligns*/
+.flex-container {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > video {
+  margin: 10px;
+  padding: 20px;
+}
+/*This is in order to make the videos in the flex on the interview page*/
+tr:hover {background-color: coral;} /* this makes it to where when you hover over the tables they change color*/
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+/*This  creates the text shadow for the heading*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+img {
+  border-radius: 8px;
+}
+/* These are for changing the pictures */
+table {
+  text-align:center;
+  border:0;
+   border-spacing:10px;
+    width:100%;
+    background-color:#e0e0e0;
+  }
+  /*These the nav table ot the center and change the background color of it*/
+
+.menu-anchor{
+  font-size:25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*Thise changes the  font od=f the words in the nav bar*/
+}
